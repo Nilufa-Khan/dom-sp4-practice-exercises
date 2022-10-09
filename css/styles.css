@@ -11,3 +11,12 @@
     flex-wrap: wrap;
     /* justify-content: space-around; */
 }
+body{
+    background-color: aquamarine;
+}
+.navbar-brand{
+    border: 1px solid blue;
+    border-width: 5px;
+    background-color: blue;
+    border-radius: 10px;
+}

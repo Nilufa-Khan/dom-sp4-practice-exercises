@@ -56,6 +56,21 @@
                          and saves the note when form is submitted -->
                     <!-- Ensure validations are applied to prevent form from 
                         submitting if the inputs are invalid -->
+                        <form onsubmit="return validateForm()">
+                            <label for="title"> Enter Title</label>
+                            <br>
+                            <input type="text" id="titleName" placeholder="Enter title"><span id="titlespan" style="color: red;"></span>
+                            <br><br>
+                            <label for="notes"> Enter Notes</label>
+                            <br>
+                            <input type="text" id="notesName" placeholder="Enter notes"><span id="notespan" style="color: red;"></span>
+                            <br><br>
+                            <input type="submit" value="Add">
+                        </form>
+                        <br><br>
+                        <button onclick="displayNotes()">Display Notes</button>
+                        <script src="./js/script.js"></script>
+
                 </div>
             </div>
         </div>
